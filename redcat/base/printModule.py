@@ -10,21 +10,15 @@ This module provide configure file management service in i18n environment.
 Authors: zhouzhiyu
 Date:    2018/7/1
 """
-# 函数
-"""
-定义格式：
-  def funName():
-  封装Code
-"""
-
-name = "zzy"
+name = "redcat"
 
 
-def say_hello():
-    print("hello 1")
-    print("hello 2")
+def print_line(char, times):
+    print(char * times)
 
 
-say_hello()
-print("name:" + name)
-
+def print_lines(char, times):
+    row = 1
+    while row < 5:
+        print(char, times)
+        row += 1
